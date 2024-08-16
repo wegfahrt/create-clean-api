@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Cake.Powershell</id>
+    <version>4.0.0</version>
+    <title>Cake.Powershell</title>
+    <authors>Phillip Sharpe</authors>
+    <owners>Phillip Sharpe</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/SharpeRAD/Cake.Powershell/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/SharpeRAD/Cake.Powershell</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/cake-contrib-medium.png</iconUrl>
+    <description>Cake Build addon for Powershell.</description>
+    <summary>Powershell addon for cake build.</summary>
+    <releaseNotes>Initial Release[Improvement] Update to Cake.Core v4.0.0</releaseNotes>
+    <copyright>Copyright (c) 2015 - 2024 Phillip Sharpe</copyright>
+    <tags>Cake cake-addin Script Build Powershell</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework8.0">
+        <dependency id="Microsoft.PowerShell.SDK" version="7.4.3" />
+      </group>
+      <group targetFramework=".NETFramework7.0">
+        <dependency id="Microsoft.PowerShell.SDK" version="7.3.11" />
+      </group>
+      <group targetFramework=".NETFramework6.0">
+        <dependency id="Microsoft.PowerShell.SDK" version="7.2.18" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
